@@ -18,6 +18,7 @@ A collection of simple Bash scripts.
 1. [Randomfile.sh](scripts/randomfile.sh): create unique file/folder automatically with date and time stamp
 1. [Random-emoji.sh](scripts/random-emoji.sh): print ramdom emojis
 1. [pomodoro.sh](scripts/pomodoro.sh): a simple pomodoro app written in bash
+1. [convert2verticalformdata.sh](scripts/convert2verticalformdata.sh)] : Convert specific row pipe separated data to vertical format data
 
 ## Programming
 
