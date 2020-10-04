@@ -18,6 +18,7 @@ A collection of simple Bash scripts.
 1. [Randomfile.sh](scripts/randomfile.sh): create unique file/folder automatically with date and time stamp
 1. [Random-emoji.sh](scripts/random-emoji.sh): print ramdom emojis
 1. [pomodoro.sh](scripts/pomodoro.sh): a simple pomodoro app written in bash
+1. [convert2verticalformdata.sh](scripts/convert2verticalformdata.sh): convert specific pipe separated row-data to vertical format data 
 
 ## Programming
 
@@ -29,7 +30,6 @@ A collection of simple Bash scripts.
 1. [Archive-and-encrypt.sh](scripts/archive-and-encrypt.sh): archive a path into a file and encrypt the file
 1. [weather.sh](scripts/weather.sh): check the weather in a specified location or using the geolocation of the ip address by default.
 1. [WhereIP.sh](scripts/whereIP.sh): Get location of an IP address. 
-1. [purging.sh](scripts/purging.sh): This is a purging script which will allow you to delete number of days old files 
 ## System Administration
 
 1. [DirectorySize.sh](scripts/directorysize.sh): output a specified directory's size
