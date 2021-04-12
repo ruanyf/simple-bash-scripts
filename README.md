@@ -28,7 +28,8 @@ A collection of simple Bash scripts.
 1. [Encrypt.sh](scripts/encrypt.sh): encrypt a file/folder with password
 1. [Archive-and-encrypt.sh](scripts/archive-and-encrypt.sh): archive a path into a file and encrypt the file
 1. [weather.sh](scripts/weather.sh): check the weather in a specified location or using the geolocation of the ip address by default.
-1. [WhereIP.sh](scripts/whereIP.sh): Get location of an IP address. 
+1. [WhereIP.sh](scripts/whereIP.sh): Get location of an IP address.
+1. [fileio.sh](scripts/fileupload.sh): Get location of an IP address.
 ## System Administration
 
 1. [DirectorySize.sh](scripts/directorysize.sh): output a specified directory's size
@@ -38,7 +39,7 @@ A collection of simple Bash scripts.
 1. [Disk-Space.sh](scripts/disk-space.sh): check if the disk space crosses the limit
 1. [CollectNetworkInfo.sh](scripts/collectnetworkinfo.sh): gather information related to server
 1. [RemoteBackup.sh](scripts/remotebackup.sh): backup a local file into a remote server
-1. [HardwareInfo.sh](scripts/hardware_machine.sh): show hardware information for systems Linux 
+1. [HardwareInfo.sh](scripts/hardware_machine.sh): show hardware information for systems Linux
 1. [Get-Temperature.sh](scripts/get-temperature.sh): show CPU temperature
 
 ## Math
