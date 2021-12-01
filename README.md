@@ -18,6 +18,7 @@ A collection of simple Bash scripts.
 1. [Randomfile.sh](scripts/randomfile.sh): create unique file/folder automatically with date and time stamp
 1. [Random-emoji.sh](scripts/random-emoji.sh): print ramdom emojis
 1. [pomodoro.sh](scripts/pomodoro.sh): a simple pomodoro app written in bash
+1. [options.sh](scripts/options.sh): a simple way to select specific option
 
 ## Programming
 
