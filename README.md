@@ -22,6 +22,7 @@ A collection of simple Bash scripts.
 ## Programming
 
 1. [VersionCompare.sh](scripts/versioncompare.sh): compare two version number
+2. [Count-total-lines.sh](scripts/Count-total-lines.sh): count all the lines in .h and .c files in a directory.
 
 ## Utility
 
