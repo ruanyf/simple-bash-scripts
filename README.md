@@ -58,6 +58,7 @@ A collection of simple Bash scripts.
 1. [Binary2Decimal.sh](scripts/binary2decimal.sh): convert Binary Number back to decimal
 1. [Decimal2Hex.sh](scripts/dec2hex.sh): convert Decimal Number to Hex
 1. [Hex2Decimal](scripts/hextodec.sh): convert Hex number back to Decimal
+1. [Area-Calculator.sh](scripts/area-calculator.sh): area calculator of any shape
 
 ## Image manipulation
 
