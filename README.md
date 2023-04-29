@@ -48,6 +48,7 @@ A collection of simple Bash scripts.
 1. [Multiplication.sh](scripts/multiplication.sh): perform multiplication of two numbers
 1. [Division.sh](scripts/division.sh): perform division of two numbers
 1. [Simplecacl.sh](scripts/simplecalc.sh): a simple calculator
+1. [Calculator.sh](scripts/calculator.sh): a simple calculator with user input capability
 1. [Table.sh](scripts/table.sh): print table of any number
 1. [EvenOdd.sh](scripts/evenodd.sh): check if a number input from standard input is odd or even
 1. [Factorial.sh](scripts/factorial.sh): generate the factorial of a number
