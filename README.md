@@ -29,6 +29,7 @@ A collection of simple Bash scripts.
 1. [Archive-and-encrypt.sh](scripts/archive-and-encrypt.sh): archive a path into a file and encrypt the file
 1. [weather.sh](scripts/weather.sh): check the weather in a specified location or using the geolocation of the ip address by default.
 1. [WhereIP.sh](scripts/whereIP.sh): Get location of an IP address. 
+1. [urlChecker.sh](scripts/urlChecker.sh): Check if the URL for a website is up (gives http status as 200)
 ## System Administration
 
 1. [DirectorySize.sh](scripts/directorysize.sh): output a specified directory's size
