@@ -15,6 +15,8 @@ echo "1. Addition"
 echo "2. Substraction"
 echo "3. Multiplication"
 echo "4. Division"
+echo "5. Square Root"
+echo "6. Square"
 read ch
 
 #Acting on the user input
@@ -27,6 +29,10 @@ case $ch in
    3) res=`echo $a \* $b | bc`
    ;;
    4) res=`echo "scale=2; $a / $b" | bc`
+   ;;
+   5) res=`echo "scale=2; sqrt($a+$b)" | bc -l`
+   ;;
+   6) res=`echo "scale=2; ($a+$b)*($a+$b)" | bc`
    ;;
 esac
 
