@@ -30,12 +30,15 @@ elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
         while [ "$date1" -ge `date +%s` ]; do
             echo -ne "$(date -u --date @$(($date1 - `date +%s` )) +%H:%M:%S)\r";
         done
+        # playing sound and send notification to alert user:
+        paplay /usr/share/sounds/freedesktop/stereo/complete.oga
         notify-send "Break" "Time to walk and rest";
         read -n1 -rsp $'Press any key to continue or Ctrl+C to exit...\n';
         date2=$((`date +%s` + $pseconds));
         while [ "$date2" -ge `date +%s` ]; do
             echo -ne "$(date -u --date @$(($date2 - `date +%s` )) +%H:%M:%S)\r";
         done
+        paplay /usr/share/sounds/freedesktop/stereo/complete.oga
         notify-send "Work" "Time to get back to work";
         read -n1 -rsp $'Press any key to continue or Ctrl+C to exit...\n';
     done
