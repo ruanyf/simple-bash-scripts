@@ -1,11 +1,23 @@
-#!/bin/bash
+# Check if LEVEL is provided
+if [ -z "$1" ]; then
+    echo "Usage: $0 <LEVEL>"
+    exit 1
+fi
 
 LEVEL=$1
+CDIR="."
+
+# Loop to construct the path
 for ((i = 0; i < LEVEL; i++)); do
-	echo $i
-	CDIR=../$CDIR
+    echo "Level $i"
+    CDIR="../$CDIR"
 done
-cd $CDIR
-echo "You are in: "$PWD
-sh=$(which $SHELL)
-exec $sh
+
+# Change to the constructed directory
+cd "$CDIR" || { echo "Failed to change directory"; exit 1; }
+
+# Print the current directory
+echo "You are in: $PWD"
+
+# Start a new shell session
+$SHELL
